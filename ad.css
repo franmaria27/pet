@@ -1,0 +1,99 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: 'robotoflex regular';
+	src: url(../fonts/robotoflex-regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'tiltwarp regular';
+	src: url(../fonts/tiltwarp-regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'robotoflex extralight';
+	src: url(../fonts/robotoflex-extralight.ttf) format('truetype');
+}
+
+
+
+.container {
+	width: 336px;
+	height: 280px;
+	border: 1px solid hotpink;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: url(../images/pet.jpg) no-repeat center;
+	background-size: 54%;
+}
+
+
+
+.title {
+	font-family: 'tiltwarp regular';
+	font-size: 1.5em;
+	color: deeppink;
+	position: absolute;
+	letter-spacing: 0.6px;
+	left: 50%;
+	top: 15px;
+	text-align: center;
+	transform: translate(-50%,-50%);
+/*	border: solid red 1px;*/
+	width: 336px;
+}
+
+.text {
+	font-family: 'robotoflex regular';
+	font-size: 10px;
+	text-align: center;
+	color: hotpink;
+	width: 336px;
+	letter-spacing: 0.1px;
+	line-height: 13px;
+	margin: auto;
+	margin-top: 27px;
+	
+
+
+}
+
+.text:first-child {
+	margin-top: 30px;
+}
+
+.link {
+	font-family: 'robotoflex extralight';
+	font-size: 18px;
+	text-align: center;
+	color: deeppink;
+	letter-spacing: 0.2px;
+	margin: auto;
+	margin-top: 182px;
+	display: block;
+	border: solid 2px hotpink;
+	width: 297px;
+	line-height: 15px;
+	padding: 10px 0 10px 0;
+	text-decoration: none;
+	transition: 0.4s;
+
+}
+
+.link:hover {
+	color: white;
+	background: hotpink;
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
